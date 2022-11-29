@@ -1,0 +1,42 @@
+.hamburger__button{
+list-style:none;
+border:none;
+background:none;
+font-size:2rem;
+}
+
+.hamburger{
+list-style:none;
+}
+
+.hamburger__link{
+position:absolute;
+margin:0.5rem;
+list-style:none;
+height:0;
+overflow:hidden;
+right:0;
+}
+
+.hamburger__link-active{
+padding:0 0.5rem;
+background-color:burlywood;
+margin:0.5rem;
+list-style:none;
+height:auto;
+position:absolute;
+right:0;
+border:1px solid black;
+line-height:2rem;
+}
+
+.hamburger__link-active a{
+color:black;
+padding:0 0rem 0 0.4rem;
+}
+
+.switch-mode{
+background:none;
+cursor:pointer;
+font-size:1rem;
+}

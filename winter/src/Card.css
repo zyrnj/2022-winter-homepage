@@ -1,0 +1,46 @@
+.content-card{
+font-size:1rem;
+display:grid;
+grid-template-columns:repeat(12,1fr);
+gap:1rem;
+}
+
+.card{
+margin:0.2rem 0.5rem;
+grid-column: span 4;
+background-color: #cde6c7;
+padding:1rem;
+border-radius:2rem;
+border:1px solid black;
+display:flex;
+flex-direction:column;
+align-items:center;
+font-family: "Times New Roman", Times,serif;
+}
+
+.card__pic{
+aspect-ratio:1/1;
+width:200px;
+height:auto;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card__link{
+background-color:green;
+color:white;
+text-decoration:none;
+padding:0.5rem;
+box-shadow: 4px 4px 4px grey;
+border-radius:2rem;
+}
+
+.card__link:hover{
+box-shadow: 3px 3px red, -1em 0 .4em olive;}
+
+@media screen and (max-width: 44rem){
+.card{
+  grid-column: span 12;
+  }
+}

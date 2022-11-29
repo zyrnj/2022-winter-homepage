@@ -1,0 +1,32 @@
+*, *::before, *::after {
+box-sizing: border-box;
+}
+
+html, body {
+height: 100%;
+margin: 0;
+background-color: #fffef9;
+font-family: sans-serif;
+}
+.app{
+display:grid;
+grid-template-rows:auto 1fr auto;
+height:100%;
+}
+
+.app-dark{
+background-color:#102b6a;
+display:grid;
+grid-template-rows:auto 1fr auto;
+height:100%;
+}
+.app-dark .global-nav__link {
+color:#f6f5ec;
+}
+.app-dark .dropdown-button{
+color:#f6f5ec;
+}
+
+#root {
+height: 100%; }
+

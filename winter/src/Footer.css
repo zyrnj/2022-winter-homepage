@@ -1,0 +1,14 @@
+.footer{
+   background-color:skyblue;
+   height:100%;
+   padding:1rem 0;
+}
+
+.footer__list{
+display:flex;
+flex-direction:row;
+justify-content:space-around;
+margin:0;
+padding:0;
+list-style:none;
+}

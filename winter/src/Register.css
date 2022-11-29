@@ -1,0 +1,40 @@
+ .text{
+ background-color:#cde6c7;
+ margin:0.5rem;
+ padding:0.5rem;
+ border:1px solid black;
+ border-radius: 25px;
+ font-family: "Times New Roman", Times,serif;
+ }
+
+.register{
+line-height:2.5rem;
+}
+.register__label{
+display:block;
+}
+
+.register-name--invalid .register-name__error {
+display: initial;
+}
+.register-name__error,.register-email__error,.register-confirm__error {
+padding: 0rem;
+background-color: #FF000033; /* red w/transparency */
+width:max(20%,12rem);
+}
+
+.register-email__error:empty { /* Only applies when element is empty */
+display: none;
+}
+.register-confirm__error:empty{
+ display: none;
+ }
+
+ @media screen and (max-width: 44rem){
+
+ .register__name, .register__email, .register__confirm,select{
+ display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+ }
+ }

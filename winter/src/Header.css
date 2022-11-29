@@ -1,0 +1,32 @@
+.header {
+display: grid;
+grid-template-areas:
+"header-logo header-title header-nav";
+grid-template-columns: auto  1fr auto;
+background-color: skyblue;
+}
+
+.header__logo {
+grid-area: header-logo;
+width:100px;
+height:100px;
+}
+
+.header__title {
+grid-area: header-title;
+text-align: center;
+}
+.skip{
+position:absolute;
+left:40%;
+right:40%;
+overflow: hidden;
+top:auto;
+height:0;
+}
+.skip:focus {
+  height: auto;
+}
+.hamburger {
+grid-area: header-nav;
+}

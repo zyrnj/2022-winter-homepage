@@ -1,0 +1,35 @@
+.gallery{
+display:flex;
+flex-direction:row;
+justify-content:space-evenly;
+
+}
+.gallery-left{
+position:absolute;
+left:0;
+background-color:#C0FFEE;
+border:none;
+cursor:pointer;
+border:1px solid blue;
+padding:2rem;
+margin:0.5rem;
+border-radius:0.5rem;
+font-size:2rem;
+}
+.gallery-right{
+position:absolute;
+right:0;
+background-color:#C0FFEE;
+border:none;
+cursor:pointer;
+border:1px solid blue;
+padding:2rem;
+margin:0.5rem;
+border-radius:0.5rem;
+font-size:2rem;
+}
+
+.gallery__picture{
+width:70%;
+height:auto;
+}
